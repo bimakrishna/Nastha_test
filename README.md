@@ -14,8 +14,8 @@ Backend:
 - Sequelize
 
 untuk menjalankan :
-client : npm start
-server : nodemon app.js
+- client : npm start
+- server : nodemon app.js
 
 Link recording: 
 https://drive.google.com/file/d/1-6gOssBGCbjzfDQGyfcjLU4p9XwLJs0a/view?usp=sharing
