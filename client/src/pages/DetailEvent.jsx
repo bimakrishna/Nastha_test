@@ -2,12 +2,10 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 import { fetchEventDetail } from '../store/actions'
-import addLogo from '../assets/addlogo.png'
 
 function DetailEvent () {
     const dispatch = useDispatch()
     const detail = useSelector(state => state.detail)
-    console.log(detail);
     const params = useParams()
 
     useEffect(() => {

@@ -10,6 +10,7 @@ function HomePage () {
     useEffect(() => {
         dispatch(fetchEvents())
     }, [events])
+    
     return (
         <>
         <div className="card-box">

@@ -8,22 +8,19 @@ function Dashboard () {
     const events = useSelector(state => state.events)
     const dispatch = useDispatch()
     const [currentPage, setCurrentPage] = useState(1)
-    const [postsPerPage] = useState(5)
-
-    useEffect(() => {
-        dispatch(fetchEvents()) 
-    }, [])
-
-    console.log(events);
-
-    const indexOfLastPost = currentPage * postsPerPage
-    const indexOfFirstPost = indexOfLastPost - postsPerPage
-    const currentPosts = events.slice(indexOfFirstPost, indexOfLastPost)
+    const [postsPerEvent] = useState(5)
+    const indexOfLastEvent = currentPage * postsPerEvent
+    const indexOfFirstEvent = indexOfLastEvent - postsPerEvent
+    const currentPosts = events.slice(indexOfFirstEvent, indexOfLastEvent)
     const [ searchEvent, setSearchEvent ] = useState('')
 
     const filteredEvents = currentPosts.filter( event => {
         return event.title.toLowerCase().includes( searchEvent.toLowerCase() )
     })
+
+    useEffect(() => {
+        dispatch(fetchEvents()) 
+    }, [])
 
     const paginate = pageNumber => setCurrentPage(pageNumber)
 
@@ -61,12 +58,10 @@ function Dashboard () {
                             element={el} />
                     ))  
                 }
-                
-                
             </table>
-            <div className="sayur">
-            <Pagination postsPerPage={postsPerPage} totalPosts={events.length} paginate={paginate}/>
-            </div>
+                <div className="pagination-segment">
+                    <Pagination postsPerEvent={postsPerEvent} totalPosts={events.length} paginate={paginate}/>
+                </div>
             </div>
         </div>
         </>
