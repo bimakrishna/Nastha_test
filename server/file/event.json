@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-10-01",
+        "participant": "Budi dan Mawar",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://nowjakarta.co.id/uploads/event/image/1768/LouisTomlinson-2000X1500-update-jpg-960x720-FIT-cd903b29bb927c8a0cd5cd84ad9f5333__1_.jpeg"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-11-01",
+        "participant": "Justin dan Bieber",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf-52qyOx2r4q0zdxOHSqTLKjjXSxV8lFQn1LOGgzb6NU13Nwjz8vKWFUBf6nIFEXWU-k&usqp=CAU"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-12-01",
+        "participant": "Suko dan Suki",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://business.twitter.com/content/dam/business-twitter/insights/may-2018/event-targeting.png.twimg.1920.png"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-05-01",
+        "participant": "Yono dan Titin",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://www.mandreel.com/indonesia/wp-content/uploads/2019/01/event-organizer-in-jakarta-indonesia.jpg"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-06-01",
+        "participant": "Yana dan Tini",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://miro.medium.com/max/2048/1*VcCBSbXt4BvthjMBDENhIg.jpeg"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-07-01",
+        "participant": "Bono dan Bunga",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://loket-production-sg.s3.ap-southeast-1.amazonaws.com/images/ss/blog/1541654611_s58pGW.jpg"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-08-01",
+        "participant": "Sinta dan Mawar",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://panel.tiketapasaja.com/images/event/tiketapasaja_1464520190804145643.png"
+    },
+    {
+        "title": "Meeting With CEO",
+        "lokasi": "Jakarta, Indonesia",
+        "now_date": "2021-09-01",
+        "participant": "Cika dan Mawar",
+        "notes": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image_url": "https://media-exp1.licdn.com/dms/image/C4D1BAQFAC3o2eHS_vA/company-background_10000/0/1565182814457?e=2159024400&v=beta&t=zWT-JPXEhmCFr0L8eTn0LswSz82VWuuJBkRuPAvLN-Q"
+    }
+]
